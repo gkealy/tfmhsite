@@ -13,15 +13,17 @@
   ?>
 
   <div class="wrap container" role="document">
+      <img src="http://i.imgur.com/wFOIIny.png" width="100%" />
+
     <div class="content row">
       <main class="main" role="main">
         <?php include roots_template_path(); ?>
       </main><!-- /.main -->
-      <?php if (roots_display_sidebar()) : ?>
+      <!--<?php if (roots_display_sidebar()) : ?>
         <aside class="sidebar" role="complementary">
           <?php include roots_sidebar_path(); ?>
-        </aside><!-- /.sidebar -->
-      <?php endif; ?>
+        </aside><!-- /.sidebar
+      <?php endif; ?> -->
     </div><!-- /.content -->
   </div><!-- /.wrap -->
 

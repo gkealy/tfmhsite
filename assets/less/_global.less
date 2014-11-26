@@ -1,0 +1,104 @@
+// Global Code
+
+a:hover {
+	text-decoration: none;
+}
+
+li, ul, lo {
+	padding-left: 0px;
+	margin-left: 0px;
+	list-style-type: none;
+}
+
+// Front page [Landing page]
+
+.fp-tara {
+
+	max-height: 70vh;
+	width: auto;
+	margin: 0 auto;
+}
+
+.fp-name {
+	text-align: center;
+}
+
+
+// Blog page
+
+.entry-title {
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+	border-bottom: solid 1px #ccc;
+}
+
+#unpad {
+	padding-left: 0px;
+}
+
+.entry-content p {
+	font-family: @font-family-serif;
+
+}
+
+blockquote {
+	border: none;
+	margin: 0px 0px 15px;
+}
+
+.entry-content blockquote p {	
+	font-family: @font-family-sans-serif;
+	}
+
+.entry-content img {
+	max-width: 100%;
+}
+
+.entry-content figure {
+	border: 0px;
+	padding: 0px;
+}
+
+figcaption {
+	padding-left: 0px;
+}
+
+.wp-caption-text {
+	padding: 10px 0px;
+}
+
+
+// All except X Small Css
+
+@media only screen and (min-width: @screen-sm) {
+	
+	h1 {
+	font-size: floor((@font-size-h1 * 1.4));
+	}
+
+	.entry-content p {
+	font-size: 22px;}
+
+
+	.entry-content blockquote p {
+	font-size: 30px;
+	}
+
+	blockquote {
+	margin-left: -38%;
+	margin-right: -24%;
+	}
+
+}
+
+// X Small Only Css
+
+@media only screen and (max-width: @screen-sm) {
+
+	div .entry-content {padding: 0px}
+
+
+	h1 {
+	font-size: floor((@font-size-h1 * 0.6));
+	}
+}
